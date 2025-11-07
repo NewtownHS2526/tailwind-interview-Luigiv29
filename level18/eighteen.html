@@ -11,7 +11,9 @@
         @tailwind utilities;
         
         /* Create your responsive classes here using @apply */
-        
+        .container-responsive { @apply px-4 md:px-8 lg:px-12 py-8; }
+        .text-responsive { @apply text-base md:text-lg lg:text-xl font-bold; }
+        .grid-responsive { @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4; }
     </style>
 </head>
 <body class="bg-gray-100">
